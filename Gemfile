@@ -5,12 +5,16 @@ ruby '2.7.2'
 
 gem 'devise'
 gem 'simple_form'
-gem 'pundit'
-gem 'cloudinary'
+gem 'pundit' # -> autorisation plus avancé
+gem 'cloudinary' # -> images
+gem 'pq' # --> postgres
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+
+#gem 'sqlite3', '~> 1.4'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
