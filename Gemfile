@@ -7,7 +7,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'pundit' # -> autorisation plus avancé
 gem 'cloudinary' # -> images
-gem 'pq' # --> postgres
+gem 'pg' # --> postgres
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 # Use sqlite3 as the database for Active Record
