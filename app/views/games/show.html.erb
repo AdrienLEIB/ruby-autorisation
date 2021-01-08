@@ -1,6 +1,7 @@
 <h1><%= @game.name %></h1>
 <p><%= @game.description %></p>
-
+<%= cl_image_tag @game.photo.key if @game.photo.attached? %>
+<br>
 <% if policy(@game).edit? %>
 	<%= link_to 'Edit', edit_game_path(@game) %>
 <% end %>
