@@ -1,0 +1,10 @@
+<h1><%= @game.name %></h1>
+<p><%= @game.description %></p>
+
+<% if policy(@game).edit? %>
+	<%= link_to 'Edit', edit_game_path(@game) %>
+<% end %>
+<br>
+<% if policy(@game).edit? %>
+	<%= link_to "Supprimer", game_path(@game), method: :delete %>
+<% end %>
